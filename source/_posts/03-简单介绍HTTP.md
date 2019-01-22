@@ -13,7 +13,7 @@ tags: HTTP
 ### HTTP 请求
 客户端（Client）通过发送HTTP请求向服务器（Server）的80端口请求资源访问
 #### HTTP请求最多包含四部分，最少包含三部分，他的格式是：
-1. **动词 路径 协议/版本**\n
+1. **动词 路径 协议/版本** /n
    动词有 GET POST PUT PATCH DELETE HEAD OPTIONS 等
    路径以“\”开头，不写默认为“\”
    **动词**|**作用**
@@ -26,7 +26,7 @@ tags: HTTP
 2. **Key: value** ( 第二部分可以有很多组 key:value)
 3.  （第三部分是一个回车，用来分隔第二与底四部分）
 4. **要上传的数据**
-\n
+/n
 
 ### HTTP 响应
 客户端向服务器发送请求后，服务器随之发出响应
@@ -49,7 +49,7 @@ tags: HTTP
 2. **Key: value** ( 第二部分可以有很多组 key:value)
 3. （第三部分是一个回车，用来分隔第二与底四部分）
 4. **要下载的内容**
-\n
+/n
 
 ### 用Chrome开发者工具查看 HTTP 请求与响应内容
 下面以 <a href="https://www.baidu.com/" target="_blank" >https://www.baidu.com/</a> 为例
