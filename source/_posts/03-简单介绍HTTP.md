@@ -13,7 +13,7 @@ tags: HTTP
 ### HTTP 请求
 客户端（Client）通过发送HTTP请求向服务器（Server）的80端口请求资源访问
 #### HTTP请求最多包含四部分，最少包含三部分，他的格式是：
-1. **动词 路径 协议/版本** /n
+1. **动词 路径 协议/版本** 
    动词有 GET POST PUT PATCH DELETE HEAD OPTIONS 等
    路径以“\”开头，不写默认为“\”
    **动词**|**作用**
