@@ -26,7 +26,7 @@ tags: HTTP
 2. **Key: value** ( 第二部分可以有很多组 key:value)
 3.  （第三部分是一个回车，用来分隔第二与底四部分）
 4. **要上传的数据**
-/n
+
 
 ### HTTP 响应
 客户端向服务器发送请求后，服务器随之发出响应
@@ -49,19 +49,19 @@ tags: HTTP
 2. **Key: value** ( 第二部分可以有很多组 key:value)
 3. （第三部分是一个回车，用来分隔第二与底四部分）
 4. **要下载的内容**
-/n
+
 
 ### 用Chrome开发者工具查看 HTTP 请求与响应内容
 下面以 <a href="https://www.baidu.com/" target="_blank" >https://www.baidu.com/</a> 为例
 - 右键检查打开开发者工具
 - 在Network可以查看请求与响应的内容
 - 刷新页面
-- 点击www.baidu.com，在右侧就可以看到请求https://www.baidu.com/ 的请求与响应内容，如图/n
+- 点击www.baidu.com，在右侧就可以看到请求<a href="https://www.baidu.com/" target="_blank" >https://www.baidu.com/</a> 的请求与响应内容，如图/n
 ![blockchain](https://github.com/AutumnQqt/blog-generator/blob/master/imgs/005.png?raw=true "HTTP 请求与响应")
 HTTP请求如图：
-(https://github.com/AutumnQqt/blog-generator/blob/master/imgs/006.png?raw=true "HTTP 请求与响应")
+![blockchain](https://github.com/AutumnQqt/blog-generator/blob/master/imgs/006.png?raw=true "HTTP 请求与响应")
 HTTP响应如图：
-(https://github.com/AutumnQqt/blog-generator/blob/master/imgs/007.png?raw=true "HTTP 请求与响应")
+![blockchain](https://github.com/AutumnQqt/blog-generator/blob/master/imgs/007.png?raw=true "HTTP 请求与响应")
 
 ### 如何使用 curl 命令
 除了使用Chrome以及其他浏览器查看HTTP请求和响应之外，我们还可以通过命令行查看HTTP请求和响应，用到的就是**curl命令**，同样以 <a href="https://www.baidu.com/" target="_blank" >https://www.baidu.com/</a> 为例
@@ -70,7 +70,7 @@ curl是一个功能强大的网络工具，它能够通过http、ftp等方式下
 其中以“>”开头的语句便是请求的内容
 ![blockchain](https://github.com/AutumnQqt/blog-generator/blob/master/imgs/008.png?raw=true "Curl查看请求与响应")
 以“<”开头的语句便是响应的内容
-(https://github.com/AutumnQqt/blog-generator/blob/master/imgs/009.png?raw=true "Curl查看请求与响应")
+![blockchain](https://github.com/AutumnQqt/blog-generator/blob/master/imgs/009.png?raw=true "Curl查看请求与响应")
 
 -s/--slient 减少输出的信息，比如进度
 -verbose 小写的v参数，用于打印更多信息，包括发送的请求信息，这在调试脚本是特别有用
